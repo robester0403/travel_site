@@ -1,0 +1,38 @@
+@use "partials/_global.scss" as *;
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: Verdana, sans-serif ;
+}
+a{
+  text-decoration: none;
+  color: initial;
+}
+.nav-bar{
+  // May need to change width to be responsive
+  max-width: 80rem;
+  min-width: 40rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: $background;
+
+  &__logocontainer{
+    color: $logo-wordmark-color;
+  }
+
+  &__pagescontainer{
+    display:flex;
+    justify-content: flex-end;
+    &__pages{
+      margin-left: 1rem;
+      &--currentpage{
+          text-decoration: underline solid $active-page-underline;
+          text-underline-offset: 0.5rem;
+          text-decoration-thickness: 0.2rem;
+        }
+      }
+  }
+}

@@ -1,2 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
 
-/*# sourceMappingURL=global.css.map *//*# sourceMappingURL=global.css.map */
+body {
+  font-family: Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.nav-bar {
+  max-width: 80rem;
+  min-width: 40rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+}
+.nav-bar__logocontainer {
+  color: #335576;
+}
+.nav-bar__pagescontainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-bar__pagescontainer__pages {
+  margin-left: 1rem;
+}
+.nav-bar__pagescontainer__pages--currentpage {
+  -webkit-text-decoration: underline solid #DB7A4E;
+          text-decoration: underline solid #DB7A4E;
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 0.2rem;
+}/*# sourceMappingURL=global.css.map */
