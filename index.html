@@ -9,37 +9,38 @@
   <title>Rob's Travel Site</title>
 </head>
 <body>
+<div class="page-wrap">
   <!-- This is the Navbar -->
   <header>
-  <div class="nav-bar">
-    <div class="nav-bar__logocontainer">
-      <a href="./index.html" alt="homepage link">
-        Travel Site
-      </a>
+    <div class="nav-bar">
+      <div>
+        <a href="./index.html" alt="homepage link">
+          <div class="nav-bar__logocontainer">Travel Site</div>
+        </a>
+      </div>
+      <div class="nav-bar__pagescontainer">
+        <div class="nav-bar__pagescontainer__pages__currentpage">
+          <a href="./index.html" alt="homepage link" class="nav-bar__pagescontainer__pages--currentpage">
+            Home
+          </a>
+        </div>
+        <div class="nav-bar__pagescontainer__pages">
+          <a href="./pages/hawaii.html" alt="hawaii page link">
+            Hawaii
+          </a>
+        </div>
+        <div class="nav-bar__pagescontainer__pages">
+          <a href="./pages/iceland.html" alt="iceland page link">
+            Iceland
+          </a>
+        </div>
+        <div class="nav-bar__pagescontainer__pages">
+          <a href="./pages/greece.html" alt="greece page link">
+            Greece
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="nav-bar__pagescontainer">
-      <div class="nav-bar__pagescontainer__pages__currentpage">
-        <a href="./index.html" alt="homepage link" class="nav-bar__pagescontainer__pages--currentpage">
-          Home
-        </a>
-      </div>
-      <div class="nav-bar__pagescontainer__pages">
-        <a href="./pages/hawaii.html" alt="hawaii page link">
-          Hawaii
-        </a>
-      </div>
-      <div class="nav-bar__pagescontainer__pages">
-        <a href="./pages/iceland.html" alt="iceland page link">
-          Iceland
-        </a>
-      </div>
-      <div class="nav-bar__pagescontainer__pages">
-        <a href="./pages/greece.html" alt="greece page link">
-          Greece
-        </a>
-      </div>
-    </div>
-  </div>
   </header>
   <div>
     Travelling Comes With Endless Discoveries
@@ -53,25 +54,42 @@
     <img src="" alt="Iceland graphic"/>
     <img src="" alt="Greece graphic"/>
   </div>
-  <div>
-    Contact
-    EMAIL
-    info@travelsite.com
-  </div>
-  <div>
-    Hours
-    MONDAY - FRIDAY
-    9:00 AM - 5:00 PM
-    SATURDAY
-    10:00 AM - 4:00 PM
-    SUNDAY
-    Closed
-  </div>
-  <div>
-    Social
-    <img src="" alt="Instagram Icon"/>
-    <img src="" alt="Facebook Icon"/>
-    <img src="" alt="Twitter Icon"/>
-  </div>
+  <footer class="footer-bar">
+    <div class="footer-bar__container">
+      <div class="footer-bar__container-block">
+        <div>Contact</div>
+        <div>
+          <div>EMAIL</div>
+          <div>info@travelsite.com</div>
+        </div>
+      </div>
+      <div  class="footer-bar__container-block--openinghours">
+        <div>Hours</div>
+        <div>
+          <div>
+            MONDAY - FRIDAY
+            9:00 AM - 5:00 PM
+          </div>
+          <div>
+            SATURDAY
+            10:00 AM - 4:00 PM
+          </div>
+          <div>
+            SUNDAY
+            Closed
+          </div>
+        </div>
+      </div>
+      <div class="footer-bar__container-block">
+        <div>Social</div>
+        <div>
+          <img src="" alt="Instagram Icon"/>
+          <img src="" alt="Facebook Icon"/>
+          <img src="" alt="Twitter Icon"/>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
 </body>
 </html>

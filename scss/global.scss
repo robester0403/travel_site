@@ -10,10 +10,15 @@ a{
   text-decoration: none;
   color: initial;
 }
-.nav-bar{
-  // May need to change width to be responsive
+.page-wrap{
   max-width: 80rem;
   min-width: 40rem;
+  margin: 0 auto;
+}
+// This is for the header nav-bar
+.nav-bar{
+  // May need to change width to be responsive
+
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
@@ -21,6 +26,8 @@ a{
 
   &__logocontainer{
     color: $logo-wordmark-color;
+    font-size: $logo-size;
+    font-weight: $logo-weight;
   }
 
   &__pagescontainer{
@@ -36,3 +43,39 @@ a{
       }
   }
 }
+.footer-bar{
+  background-color: $background-footer;
+  
+  &__container{
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  &__container-block{
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    &--openinghours{
+      max-width: 45%;
+    }
+
+  &__footer-title{
+
+  }
+
+  &__footer-modifier{
+
+  }
+
+  &__footer-information{
+
+  }
+
+  &__footer-icons{
+
+  }
+  }
+
+}
+// This is for the footer-bar
