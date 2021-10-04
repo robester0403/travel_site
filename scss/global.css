@@ -49,12 +49,46 @@ a {
   max-width: 85%;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 .footer-bar__container-block {
-  max-width: 25%;
+  width: 25%;
   display: flex;
   flex-direction: column;
+  padding: 3rem 0.5rem 3rem 0.5rem;
 }
 .footer-bar__container-block--openinghours {
   max-width: 45%;
+  padding: 3rem 0.5rem 3rem 0.5rem;
+}
+.footer-bar__footer-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #335576;
+}
+.footer-bar__footer-subtitle {
+  font-size: 1rem;
+  color: #DB7A4E;
+  padding: 1.5rem 0.5rem 1rem 0rem;
+}
+.footer-bar__footer-info {
+  color: #335576;
+  padding-right: 0.5em;
+}
+.footer-bar__container-schedulecontainer {
+  display: flex;
+}
+.footer-bar__container-icon {
+  padding-top: 3rem;
+  display: flex;
+}
+.footer-bar__container-icon__imgholder {
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-bar__container-icon__img {
+  height: 2rem;
 }/*# sourceMappingURL=global.css.map */

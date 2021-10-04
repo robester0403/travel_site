@@ -5,6 +5,7 @@ $active-page-underline: #DB7A4E;
 $background-footer: #FEFAF5;
 $text-footer-titlestext: #335576;
 $text-footer-subtitle: #DB7A4E;
+$text-footer-infotext: #335576;
 // Hero section
 $background-color-hero: #FEFAF5;
 $text-slogan: #335576;
@@ -17,6 +18,17 @@ $background-activities: #FEFAF5;
 // typography
 // logo
 $logo-size: 1.25rem;
-$logo-weight: 900
-
+$logo-weight: 900;
 //footer
+$text-footer-titlesize: 1.3rem;
+$text-footer-titleweight: 600;
+$footer-padding: 3rem 0.5rem 3rem 0.5rem;
+$text-footer-subtitlesize: 1rem;
+$text-footer-subtitlepadding: 1.5rem 0.5rem 1rem 0rem;
+
+@mixin flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
