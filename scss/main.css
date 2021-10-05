@@ -68,8 +68,12 @@
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 1s;
 }
-.rec__image-text {
+.rec__image:hover {
+  transform: scale(1.1);
+}
+.rec__text {
   position: absolute;
   bottom: 2rem;
   right: 2rem;

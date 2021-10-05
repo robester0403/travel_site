@@ -1,6 +1,6 @@
-@use "partials/_global.scss" as *;
+@use "partials/global.scss";
 
-html{
+html {
   scroll-behavior: smooth;
 }
 

@@ -1,45 +1,7 @@
-$background: #FFFFFF;
-$logo-wordmark-color: #335576;
-$active-page-underline: #DB7A4E;
-// footer
-$background-footer: #FEFAF5;
-$text-footer-titlestext: #335576;
-$text-footer-subtitle: #DB7A4E;
-$text-footer-infotext: #335576;
-// Hero section
-$background-color-hero: #FEFAF5;
-$text-slogan: #335576;
-$get-started: #DB7A4E;
-// Homepage
-$text-rec-color: #335576;
-// Destination page
-$background-activities: #FEFAF5;
-$text-dest-title-color: #ffffff;
+
 
 // typography
-// logo
-$logo-size: 1.35rem;
-$logo-weight: 900;
-// Hero
-$hero-heading-size: 3rem;
-$hero-heading-weight: 600;
-// Recommendations
-$text-rec-heading: 1.5rem;
-$text-heading-weight: 900;
-// footer
-$text-footer-titlesize: 1.3rem;
-$text-footer-titleweight: 600;
-$footer-padding: 4rem 0.5rem 4rem 0.5rem;
-$text-footer-subtitlesize: 1rem;
-$text-footer-subtitlepadding: 1.5rem 0.5rem 1rem 0rem;
-//destinations
-$text-dest-title-size: 3rem;
-$text-dest-title-weight: 600;
 
 
-@mixin flex-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
+

@@ -1,4 +1,7 @@
-@use "partials/_global.scss" as *;
+@use "partials/colors" as *;
+@use "partials/mixins" as *;
+@use "partials/variables" as *;
+@use "partials/global.scss";
 
 .itin {
 
@@ -34,7 +37,7 @@
   }
 
   &--contactus{
-    background-image: url(../assets/images/iceland.jpg);
+    background-image: url(../assets/images/contactus.png);
     max-width: 80rem;
     height: 34rem;
     background-position: center;
@@ -53,6 +56,11 @@
   &__sched-container {
     display: flex;
     justify-content: center;
+  }
+
+  &__sched-container-contactus{
+    display: flex;
+    justify-content: flex-end;
   }
 
   &__sched-card {
