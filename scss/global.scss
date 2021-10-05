@@ -3,9 +3,13 @@
 html{
   scroll-behavior: smooth;
 }
+
 body{
   font-family: Verdana, sans-serif ;
+  margin: 0;
+  background-color: #FFFFFF;
 }
+
 a{
   text-decoration: none;
   color: initial;
@@ -15,11 +19,19 @@ a{
   min-width: 40rem;
   margin: 0 auto;
 }
+
+.main-content{
+  padding-top: 3.5rem;
+
+}
 // This is for the header nav-bar
 .nav-bar{
   // May need to change width to be responsive
-
-  padding: 1rem 0;
+  padding: 1rem 2.5%;
+  top: 0;
+  width: 80rem;
+  position: fixed;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   background-color: $background;

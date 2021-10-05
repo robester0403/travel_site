@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Coffee Shop\\Coffee_Shop"
+		},
+		{
+			"path": "..\\lec-responsive-design\\lec-responsive-design"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Robert_So_Travel_Site"
+	}
+}

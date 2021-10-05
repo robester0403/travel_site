@@ -4,6 +4,8 @@ html {
 
 body {
   font-family: Verdana, sans-serif;
+  margin: 0;
+  background-color: #FFFFFF;
 }
 
 a {
@@ -17,15 +19,23 @@ a {
   margin: 0 auto;
 }
 
+.main-content {
+  padding-top: 3.5rem;
+}
+
 .nav-bar {
-  padding: 1rem 0;
+  padding: 1rem 2.5%;
+  top: 0;
+  width: 80rem;
+  position: fixed;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   background-color: #FFFFFF;
 }
 .nav-bar__logocontainer {
   color: #335576;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 900;
 }
 .nav-bar__pagescontainer {
@@ -55,11 +65,11 @@ a {
   width: 25%;
   display: flex;
   flex-direction: column;
-  padding: 3rem 0.5rem 3rem 0.5rem;
+  padding: 4rem 0.5rem 4rem 0.5rem;
 }
 .footer-bar__container-block--openinghours {
   max-width: 45%;
-  padding: 3rem 0.5rem 3rem 0.5rem;
+  padding: 4rem 0.5rem 4rem 0.5rem;
 }
 .footer-bar__footer-title {
   font-size: 1.5rem;

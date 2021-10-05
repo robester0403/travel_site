@@ -1,0 +1,86 @@
+@use "partials/_global.scss" as *;
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: $background-color-hero;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+
+  &__card {
+    min-width: 19.5rem;
+    max-width: 39.75rem;
+    display: flex;
+    flex-direction: column;
+    
+    &-heading {
+      color: $text-slogan;
+      font-size: $hero-heading-size;
+      font-weight: $hero-heading-weight;
+      margin-top: 5rem;
+    }
+
+    &-content {
+      color: $text-slogan;
+      font-size: 1.25rem;
+      margin-top: 2rem;
+    }
+
+    &-button {
+      background-color: $get-started;
+      width: 12rem;
+      height: 2.5rem;
+      margin-top: 2rem;
+      border-radius: 1rem;
+      @include flex-center;
+
+      &-text {
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  &__cardimage {
+    width: 32rem;
+  }
+
+}
+
+.rec {
+  @include flex-center;
+
+  &__heading {
+    font-size: $text-rec-heading;
+    color: $text-rec-color;
+    font-weight: $text-heading-weight;
+    margin: 0 0 0 1rem;
+  }
+
+  &__cardcontainer{
+    max-width: 85%;
+    margin: 2.5rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  &__card{
+    width: 20rem;
+    position: relative;
+  }
+  &__image{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+    &-text{
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+      color: #FFFFFF;
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+  }
+}
